@@ -1,0 +1,11 @@
+mini_search_engine/
+
+data/
+    documents.txt
+
+src/
+    preprocess.py
+    tfidf_search.py
+    embedding_search.py
+    faiss_store.py
+    main.py
