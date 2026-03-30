@@ -75,7 +75,7 @@ def preprocessdoc(file_path, output_file="processed_data.json"):
     with open(output_file, "w", encoding="utf-8") as f:
         json.dump(processed_data, f, indent=2)
 
-    print(f"✅ Data saved to {output_file}")
+    print(f" Data saved to {output_file}")
 
     return processed_data
 
