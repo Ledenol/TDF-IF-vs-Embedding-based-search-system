@@ -21,15 +21,7 @@ Improve relevance across diverse query types
  Lightweight and fast implementation
  Modular design (preprocessing, TF-IDF, embeddings separated)
  CLI-based query interface
- Project Structure
- Hybrid_search_engine/
- │── src/
- │   ├── main.py              # Entry point (query interface)
- │   ├── preprocess.py        # Data preprocessing
- │   ├── tfidf_search.py      # TF-IDF based retrieval
- │   ├── embedding.py         # Semantic embedding search
- │── documents.txt            # Input dataset
- │── processed_data.json      # Preprocessed data
+
  How It Works
  Preprocessing
  Cleans and structures raw text data
@@ -63,7 +55,7 @@ python Hybrid_search_engine/src/main.py
 Then enter:
 
 Enter your query: machine learning
-🛠️ Tech Stack
+Tech Stack
 Python
 Scikit-learn (TF-IDF)
 Sentence Transformers (Hugging Face)
