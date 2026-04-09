@@ -60,3 +60,26 @@ Python
 Scikit-learn (TF-IDF)
 Sentence Transformers (Hugging Face)
 NumPy / Pandas
+## Evaluation & Comparison
+
+We evaluate three approaches:
+
+1. TF-IDF (lexical search)
+2. Embedding-based search (semantic search)
+3. Hybrid search (weighted combination)
+
+### Metric:
+- Precision@K
+
+### Results:
+
+| Method     | Precision@3 |
+|------------|------------|
+| TF-IDF     | 0.222      |
+| Embedding  | 0.333      |
+| Hybrid     | 0.333      |
+
+### Conclusion:
+Compared TF-IDF, embedding-based, and hybrid search using Precision@K
+Observed that embedding-based retrieval outperformed lexical search
+Implemented hybrid score fusion and analyzed its impact on retrieval performance
