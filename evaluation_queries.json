@@ -1,0 +1,14 @@
+[
+  {
+    "query": "AI in industry",
+    "relevant_docs": [1]
+  },
+  {
+    "query": "transport vehicles",
+    "relevant_docs": [2]
+  },
+  {
+    "query": "machine learning",
+    "relevant_docs": [0]
+  }
+]
